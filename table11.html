@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" cellpadding="20" cellspacing="2" bordercolor="Red" align="center">
+        <caption> <h1 > Nested Tables</h1</caption>
+        <tr>
+            <th>Header column 1</th>
+            <th>Header column 2</th>
+            <th>Header column 3</th>
+            <th>Header column 4</th>
+        </tr>
+        <tr>
+            <td>Row 2 - tem 1</td>
+            <td>Row 2 - item 2</td>
+            <th rowspan="2">Row 2: Nested Table 1
+                <br> <br>
+                <table border="1">
+                    <tr>
+                        <th>Row 1 Header</th>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <th>Row 2 Header</th>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <th>Row 2 Header</th>
+                        <td>item</td>
+                    </tr>
+                </table>
+            </th>
+            <td>Row 2 - item 4  A second Line</td>
+        </tr>
+        <tr>
+            <th>Row 3:Nested table2
+                <br> <br>
+                <table border="1">
+                    <tr>
+                        <th>row 1 header</th>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <th>row 2 header</th>
+                        <td>item</td>
+                    </tr>
+                </table>
+            </th>
+            <td>Row 3- item 2</td>
+            <td rowspan="2">Row 3 - item 3</td>
+        </tr>
+        <tr>
+            <td>Row 4 - item 1</td>
+            <td>Row 4 - item 2</td>
+            <td>Row 4 - item 3</td>
+        </tr>
+        <tr>
+            <td colspan="4">Row 5 - Last row of outer table</td>
+        </tr>
+    </table>
+</body>
+</html>
